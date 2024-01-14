@@ -108,7 +108,7 @@
             @empty
                 <tr>
                     <td colspan="5"
-                        class="px-6 pt-6 text-sm whitespace-nowrap font-medium text-gray-600 text-center">
+                        class="px-6 py-4 text-sm whitespace-nowrap font-medium text-gray-600 text-center">
                         No appointments available
                     </td>
                 </tr>
