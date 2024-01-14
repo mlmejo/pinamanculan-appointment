@@ -12,5 +12,8 @@ php artisan config:cache
 echo "Caching routes..."
 php artisan route:cache
 
+echo "Publishing livewire components"
+sail php artisan vendor:publish --force --tag=livewire:assets
+
 echo "Running migrations..."
 php artisan migrate --force
